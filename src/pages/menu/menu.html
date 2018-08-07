@@ -1,0 +1,168 @@
+<!--
+  Generated template for the MenuPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- <ion-header>
+
+  <ion-navbar>
+    <ion-title>menu</ion-title>
+  </ion-navbar>
+
+</ion-header> -->
+
+
+<ion-content>
+	<ion-row (swipe)="swipe($event)">
+		<ion-col col-12 padding>
+			<ion-row align="center">
+				<ion-col col-12 style="font-family: ExtraBold; font-weight: bold;">
+					<img src="assets/icons/cardboard.png" width="80px">
+				</ion-col>
+			</ion-row>
+			<ion-row align="center">
+				<ion-col col-12 style="font-family: ExtraBold; font-weight: bold; font-size: 22px;">
+					CARDBOARD
+				</ion-col>
+			</ion-row>
+			<ion-row padding align="center">
+				<ion-col col-12 style="font-family: Regular; font-size: 19px;">
+					Vas a necesitar un par de lentes de realidad virtual para los videos 1 y 2
+				</ion-col>
+			</ion-row>
+		</ion-col>
+		<ion-col col-12 padding>
+			<ion-row align="center">
+				<ion-col col-12 style="font-family: ExtraBold; font-weight: bold;">
+					<img src="assets/icons/videosplay.png" width="80px">
+				</ion-col>
+			</ion-row>
+			<ion-row align="center">
+				<ion-col col-12 style="font-family: ExtraBold; font-weight: bold; font-size: 22px;">
+					VIDEOS PLAY
+				</ion-col>
+			</ion-row>
+			<ion-row padding align="center">
+				<ion-col col-12 style="font-family: Regular; font-size: 19px;">
+					Tenés que reproducir en orden los capítulos 1, 2 y 3
+				</ion-col>
+			</ion-row>
+		</ion-col>
+		<ion-col col-12 padding>
+			<ion-row align="center">
+				<ion-col col-12 style="font-family: ExtraBold; font-weight: bold;">
+					<img src="assets/icons/guiaspreguntas.png" width="80px">
+				</ion-col>
+			</ion-row>
+			<ion-row align="center">
+				<ion-col col-12 style="font-family: ExtraBold; font-weight: bold; font-size: 22px;">
+					GUÍA DE PREGUNTAS
+				</ion-col>
+			</ion-row>
+			<ion-row padding align="center">
+				<ion-col col-12 style="font-family: Regular; font-size: 19px;">
+					Te ayudarán a comprender y reflexionar los videos
+				</ion-col>
+			</ion-row>
+		</ion-col>
+		<ion-col col-12 padding>
+			<ion-row align="center">
+				<ion-col col-12 style="font-family: ExtraBold; font-weight: bold;">
+					<img src="assets/icons/reflexion.png" width="80px">
+				</ion-col>
+			</ion-row>
+			<ion-row align="center">
+				<ion-col col-12 style="font-family: ExtraBold; font-weight: bold; font-size: 22px;">
+					REFLEXIÓN
+				</ion-col>
+			</ion-row>
+			<ion-row padding align="center">
+				<ion-col col-12 style="font-family: Regular; font-size: 19px;">
+					Podrás compartir las respuestas con tus compañeros
+				</ion-col>
+			</ion-row>
+		</ion-col>
+		<ion-col col-12 padding align="center" style="background: #DDD;">
+			<ion-row>
+				<ion-col col-12 align="center" style="color: #0075bf; font-size: 19px; font-weight: bold;">
+					ALEX: 
+				</ion-col>
+			</ion-row>
+			<ion-row>
+				<ion-col col-12 align="center" style="color: #0075bf; font-size: 19px">
+					LA EXPERIENCIA DEL YO
+				</ion-col>
+			</ion-row>
+			<ion-row>
+				<ion-col col-12 padding align="justify" style="color:#000000">
+					¿Cuál es la visión del profesor de Alex y Mía sobre la persona humana? ¿Qué piensa Mía al respecto durante la fiesta? ¿Qué pensará al escuchar las palabras de la mamá de Alex? ¿Y vos que pensás? ¿Qué es ser persona? ¿Somos algo más que "un montón de neuronas"?
+				</ion-col>
+			</ion-row>
+			<ion-row>
+				<ion-col col-12>
+					<!-- <div class="media-sample-container">
+					<div *ngFor="let media of media1" (tap)="onMediaSampleitemClick(media)">
+				      <media-sample-item [mediaSample]="media"></media-sample-item>
+				    </div>
+				    </div> -->
+					<iframe style="height: 250px" src="https://www.youtube.com/embed/ATpiSxZoFyE" frameborder="0" allowfullscreen></iframe>
+				</ion-col>
+			</ion-row>
+		</ion-col>
+		<ion-col col-12 padding align="center" style="background: #DDD;">
+			<ion-row>
+				<ion-col col-12 align="center" style="color: #0075bf; font-size: 19px; font-weight: bold;">
+					MÍA: 
+				</ion-col>
+			</ion-row>
+			<ion-row>
+				<ion-col col-12 align="center" style="color: #0075bf; font-size: 19px">
+					LA EXPERIENCIA DEL OTRO
+				</ion-col>
+			</ion-row>
+			<ion-row>
+				<ion-col col-12 padding align="justify" style="color:#000000">
+					En el taller de literatura, le proponen a Mía “mirar desde donde él mira”. ¿Qué creés que significa esto? ¿Cómo es Alex en cada situación: en la biblioteca, en el pasto y en la fiesta? ¿Qué tipo de personalidad tiene? ¿Qué piensa? ¿Cómo lo ve Mía? ¿En qué se diferencian? ¿Y vos? ¿Cómo creés que conocemos a los demás?
+				</ion-col>
+			</ion-row>
+			<ion-row>
+				<ion-col col-12>
+					<!-- <div class="media-sample-container">
+					<div *ngFor="let media of media2" (tap)="onMediaSampleitemClick(media)">
+				      <media-sample-item [mediaSample]="media"></media-sample-item>
+				    </div>
+				    </div> -->
+					<iframe style="height: 250px" src="https://www.youtube.com/embed/c5R5UGdltH0" frameborder="0" allowfullscreen></iframe>
+				</ion-col>
+			</ion-row>
+		</ion-col>
+		<ion-col col-12 padding align="center" style="background: #DDD;">
+			<ion-row>
+				<ion-col col-12 align="center" style="color: #0075bf; font-size: 19px; font-weight: bold;">
+					PERSPECTIVAS DE LA PERSONA HUMANA
+				</ion-col>
+			</ion-row>
+			<ion-row>
+				<ion-col col-12 padding align="justify" style="color:#000000">
+					Escuchá con atención el discurso de Alex: ¿Qué es la “Perspectiva de la tercera persona”? ¿Por qué no abarca la totalidad de la persona humana? ¿Qué es la “Perspectiva de la primera persona”? ¿Cómo creés que lo que le sucedió a Alex le permitió valorar su interioridad? ¿Qué es la “Perspectiva de segunda persona”? ¿Por qué pensás que el descubrir nuestra propia persona nos ayuda a reconocer al otro como tal? ¿Qué sucede si reduzco la realidad a solo una perspectiva? ¿Qué errores podría cometer? Así como Alex propone incorporar estas tres visiones en el ejercicio de la medicina ¿En qué otros aspectos de mi vida podría utilizar esta mirada?
+				</ion-col>
+			</ion-row>
+			<ion-row>
+				<ion-col col-12>
+					<!-- <div class="media-sample-container">
+					<div *ngFor="let media of media2" (tap)="onMediaSampleitemClick(media)">
+				      <media-sample-item [mediaSample]="media"></media-sample-item>
+				    </div>
+				    </div> -->
+					<iframe style="height: 250px" src="https://www.youtube.com/embed/j1V3qBNroS8" frameborder="0" allowfullscreen></iframe>
+				</ion-col>
+			</ion-row>
+		</ion-col>
+		<!-- <div class="media-sample-container">
+		    <div *ngFor="let media of mediaSamples" (tap)="onMediaSampleitemClick(media)">
+		      <media-sample-item [mediaSample]="media"></media-sample-item>
+		    </div>
+		</div> -->
+	</ion-row>
+</ion-content>

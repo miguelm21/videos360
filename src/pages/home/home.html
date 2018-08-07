@@ -1,14 +1,33 @@
-<ion-header>
+<!-- <ion-header>
   <ion-navbar>
     <ion-title>
       Ionic Blank
     </ion-title>
   </ion-navbar>
-</ion-header>
+</ion-header> -->
 
-<ion-content padding>
-  The world is your oyster.
+<ion-content>
+	<ion-row (swipe)="swipe($event)">
+		<ion-col col-12 no-padding style="padding-bottom: 10px;">
+			<img src="assets/imgs/header.png">
+		</ion-col>
+		<!-- <ion-col col-12 class="first_half">
+			
+		</ion-col> -->
+		<ion-col col-12 align="center">
+			<span style="font-family: ExtraBold; color:#00b1b2; font-size: 35px; font-weight: bold;">EL YO Y EL OTRO</span>
+		</ion-col>
+		<ion-col padding col-12 align="justify" style="font-family: Regular; color: #000; font-size: 18px;">
+			<div padding>
+				Te invitamos a experimentar la historia de Alex y Mía, dos amigos estudiantes de medicina. Ellos viven un momento muy particular que los ayudará a reflexionar sobre las perspectivas de la persona humana.
+			</div>
+		</ion-col>
+		<ion-col col-12 align="center">
+			<img src="assets/icons/swipe.png" width="80px">
+		</ion-col>
+	</ion-row>
+  <!-- The world is your oyster.
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  </p> -->
 </ion-content>

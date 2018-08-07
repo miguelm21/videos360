@@ -1,3 +1,10 @@
 page-home {
-
+	.first_half {
+		background-color: blue;
+		height:340px !important;
+		-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 51% 85%, 0% 75%, 0 0);
+		clip-path: polygon(50% 0%, 100% 0, 100% 78%, 51% 85%, 0% 78%, 0 0);
+		margin-botton: 0;
+		padding-bottom: 0;
+	}
 }
